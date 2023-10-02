@@ -1,0 +1,40 @@
+:root {
+    --dark1: #FFB3C6;
+    --dark2: #FB6F92;
+    --light1: #FFE5EC; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    max-width: 1023px;
+    margin: 0 auto;
+}
+
+body{
+    background-color: var(--light1);
+}
+
+footer{
+    background-color: var(--dark1);
+    text-align: center;
+    border-radius: 2vh;
+    width: 30vW;
+    margin: 0 auto;
+}
+
+.bg-nav{
+    background-color: var(--dark1) !important;
+}
+
+.dark{
+    color: var(--dark2) !important;
+}
+
+.card-dark-bg{
+    background-color: var(--dark1);
+}
